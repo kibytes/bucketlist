@@ -1,0 +1,77 @@
+
+
+--- Here’s a small Application to build while learning. Have Fun! --
+
+What would you like to do in the next few years? Climb a mountain? Learn to ride a bike? :) 
+It’s important to  keep track of what you have already done and what you are yet to achieve. 
+In the next steps, we will work towards building a bucket list application that helps us record 
+activities we wish to undertake, tick off what we have done and even invite our  friends to have fun with you.
+
+
+App Name
+Bucketlist
+Language/Frameworks
+Python/Flask
+Challenge
+The challenge of keeping track of dreams and goals is a need for many individuals that requires 
+an innovative and robust solution that will allow them to remember and share the fun with others 
+App Description
+The innovative bucketlist app is an application that allows users  to record and share things 
+they want to achieve or experience before reaching a certain age meeting the needs of keeping track of their dreams and goals.
+Required Features
+Users create accounts
+Users can log in
+Users create, view, update and delete bucket lists. 
+Users can add, update, view or delete items in a bucket list
+
+
+Challenge 1: Mini Application to Build
+Follow the instructions below and happy building! :)
+
+Why don’t you try setting up a Github repository?
+
+Great job. So let's try Building a frontend with HTML/CSS/Bootstrap (and basic Vanilla JS). 
+
+without implementing the core functionality. The pages built should show UI elements that will allow a user to 
+>Register
+>Login
+>Create a bucketlist
+>View a bucketlist
+>Add activities to the bucketlist
+
+NOTE: These are just designs and not functional pages
+
+That’s looking great. How about making a few valid commits? Try make 5 to 10. Valid commits are consistent and 
+contain meaningful messages that are context specific.
+Now let’s build a UML class diagram for our application
+
+>Commit your work.
+>Now create a pull request and request one or two of your friends to review it if you can. 
+If they are non-technical, explain to them what you have done in a non-technical way.
+>Done with 5 above? Merge the pull request with master.
+Now, just a little introduction to project management so that you will be ahead of the pack.
+
+>Create a Pivotal tracker board mapping tasks and features required to complete challenge. This will help you keep track of your progress.
+ It should at least capture the required features.
+>It is advisable to use the Pivotal Tracker board to document and manage all task(chores and features) from here onwards.
+
+Challenge 2: Expanding the Application
+Great job so far. Want to keep going? Let’s expand the application and learn more. :)
+
+>Next we setup Flask.
+>Setup Pylint for linting. This will let you know if your work follows PEP8 style guide requirements.
+>Setup unit testing libraries and ensure minimal tests written. It would be great to practice Test-Driven-Development from here onwards
+>Create features enabling users to Create, Read, Update and Delete non-persistent data 
+(no database required, data is lost when application stops). Try to use OOP when tackling this one.
+
+>Remember the UI developed in step 2? Building on that, create a user interface to access functionality 
+above implemented with HTML/CSS/Bootstrap or Materialize.
+>Integrate TravisCI for Continuous Integration in your repository (with ReadMe badge).
+Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ReadMe.
+Integrate test coverage reporting (e.g. Coveralls) with badge in the ReadMe.
+Create a pull request and request two of your friends to review it.
+Deploy your application hosted to Heroku.
+
+Great job people. Still having fun? Guess what. If you build on this you can eventually have a complete 
+Application that meets world class standards. Want to keep going? Reach out to us on Slack.
+
