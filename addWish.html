@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bucket List | Add</title>
+
+   
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    
+	<!--<link href="../static/css/bootstrap.min.css" rel="stylesheet">-->
+
+    
+	<!--<link href="../static/css/jumbotron-narrow.css" rel="stylesheet">-->
+    <script src="vanilla.js"></script>
+	
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+		  <li role="presentation"><a href="/home">Home</a></li>
+	    <li role="presentation" class="active"><a href="#">Add Item</a></li>
+            <li role="presentation" ><a href="#">Logout</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Bucket List</h3>
+      </div>
+     <section>
+      <form class="form-horizontal" method="post" action="/addWish">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Create Your Wish</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtTitle">Title</label>  
+  <div class="col-md-4">
+  <input id="txtTitle" name="inputTitle" type="text" placeholder="Your Wish" class="form-control input-md">
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtPost">Post</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="txtPost" name="inputDescription" placeholder="Describe it"></textarea>
+  </div>
+</div>
+
+<!-- Photos -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="frontview">Dream Board</label>  
+  <div class="col-md-4">
+  <input class="form-control" type="file" required="required" name="frontview" id="fileToUpload" style="background-color:gray;">
+  <input class="form-control" type="file" required="required" name="frontview" id="fileToUpload" style="background-color:gray;">
+  <input class="form-control" type="file" required="required" name="frontview" id="fileToUpload" style="background-color:gray;">
+  </div>
+</div>
+
+<div class="form-group">
+<label class="col-md-4 control-label" for="inputDate">Due Date</label>
+<div class="col-md-4">
+		<input type="date" name="inputDate" class="form-control" placeholder="Complete By" required autofocus>
+		</div>
+		</div>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <input id="singlebutton" name="singlebutton" class="btn btn-primary" type="submit" value="Publish" />
+  </div>
+</div>
+
+</fieldset>
+</form>
+      
+</section>
+      <footer class="footer">
+        <p>&copy; B.K.M 2017 mutuab@gmail.com</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
+
